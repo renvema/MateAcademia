@@ -53,7 +53,7 @@ public class Number {
     }
 
     private int convertToArabic(String operand) {
-        int result = -1; //it should be very strange case if method returns -1
+        int result = -1;
 
         if (!possibleNumbers.containsValue(operand)) {
             throw new ArithmeticException("No such number");
